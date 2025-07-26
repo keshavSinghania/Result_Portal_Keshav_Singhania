@@ -12,7 +12,7 @@ export const Dashboard = () => {
     } else if (userDetails?.role === "student") {
       navigate("/student/dashboard", { replace: true });
     } else if (userDetails?.role === "admin") {
-      navigate("/student/admin", { replace: true });
+      navigate("/admin/dashboard", { replace: true });
     } else {
       navigate("/", { replace: true })
     }

@@ -63,7 +63,7 @@ function App() {
     }
   }, []);
 
-  if (loading) return <div className="text-center py-10">Loading...</div>;
+  if (loading) return <div className="text-center py-1 text-red-700">Loading...</div>;
 
   return (
     <>
