@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import SidebarFaculty from "./SideBarFaculty";
+import SidebarFaculty from "./SidebarFaculty";
 
 const FacultyDashboard = () => {
   return (
